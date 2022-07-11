@@ -4,7 +4,7 @@ body {
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
-    background: #a1a4d0 url(./images/bg2.jpg);
+    background: #a1a4d0 url(bg2.jpg);
     background-size: cover;
 }
 
@@ -41,6 +41,7 @@ h1 {
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px
 }
 
 .info {
@@ -50,14 +51,18 @@ h1 {
     align-items: center;
 }
 
-.infotext span {
-    display: block;
+.infotext_item {
     margin-bottom: 10px;
 }
 
+.infotext_item a {
+    display: flex;
+    align-items: center;
+}
+
 .icon {
-    position: relative;
-    top: 9px;
+    width: 32px;
+    height: 32px;
     margin-right: 15px;
 }
 
